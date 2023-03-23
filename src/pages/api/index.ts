@@ -45,7 +45,7 @@ export const baseURL = import.meta.env.NOGFW
 
 const maxTokens = Number(import.meta.env.MAX_INPUT_TOKENS)
 
-const pwd = import.meta.env.PASSWORD
+const pwd = "dywaOpen" // import.meta.env.PASSWORD
 
 export const post: APIRoute = async context => {
   try {
